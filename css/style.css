@@ -76,7 +76,11 @@ img {
 
 /* Header */
 .hero {
+<<<<<<< HEAD
   background: url('../img/crystalweed-cannabis-papBPuF484I-unsplash.jpg') no-repeat center center/cover;
+=======
+  background: url('../images/jm.jpg') no-repeat center center/cover;
+>>>>>>> d9e6365c0faac1d68653aed13839b51d794426a9
   height: 100vh;
   position: relative;
   color: #fff;
