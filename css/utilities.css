@@ -2,11 +2,11 @@
 .text-primary {
   color: #a01fa2;
 }
-
+/*#0284d0*/
 .text-secondary {
-  color: #0284d0;
+  color: #a01fa2;;
 }
-
+/*#3195ff*/
 /* Button */
 .btn {
   cursor: pointer;
@@ -21,7 +21,7 @@
 .btn:hover {
   opacity: 0.9;
 }
-
+/*#a01fa2 0284d0*/
 .btn-primary,
 .bg-primary {
   background: #a01fa2;
@@ -29,7 +29,7 @@
 }
 .btn-secondary,
 .bg-secondary {
-  background: #0284d0;
+  background: #3195ff;
   color: #fff;
 }
 .btn-dark,
