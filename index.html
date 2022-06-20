@@ -1,285 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="A web design business based in Athens, Ohio offering web design, web development, mobile development, and marketing, services! "
-    />
-    <meta
-      name="keywords"
-      content="Effective Web Design, Focused on Results, Affordable Web Design, Professional Web Design"
-    />
-    <meta name="author" content="Shad DeHart" />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Effective On-Page SEO Solutions: Websites Focused On Results</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bgimg">
+    <div class="topleft">
+      <p>DeHart's Web Solutions</p>
+    </div>
+    <div class="middle">
+      <h1>COMING SOON</h1>
+      <hr>
+      <p id="demo" style="font-size: 30px;"></p>
+    </div>
+    <div class="bottomleft">
+      <p>We are updating our website we will be back soon!</p>
+    </div>
+  </div>
 
-    <link rel="stylesheet" href="css/utilities.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>
-      DeHarts Web Solutions | SEO Solutions, Effective Website Design, Focused
-      On Results!
-    </title>
-    <meta
-      name="google-site-verification"
-      content="YqVHNe86gsMTRQFhbY2ftBboWUxEffa03JwGVTmLVmc"
-    />
-  </head>
-  <body id="home">
-    <header class="hero">
-      <div id="navbar" class="navbar top">
-        <h1 class="logo">
-          <!-- <span class="text-primary"><i class="fas fa-heartbeat">--><img
-            style="width: 80px; padding: 4px"
-            src="images/hart-love.png"
-            alt="deharts-web-solutions-logo"
-          /><!--</i> DeHarts</span
-          > Web Design -->
-        </h1>
-        <nav>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li>
-              <a href="https://shads-portfolio.netlify.app/">Porfolio</a>
-            </li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+  <script>
+    // Set the date we're counting down to
+var countDownDate = new Date("July 30, 2022 15:37:25").getTime();
 
-      <div class="content">
-        <h1>DeHarts Web Solutions</h1>
-        <p>Effective Websites Focused On Results</p>
-        <a href="#contact" class="btn"
-          ><i class="fas fa-chevron-right"></i> Contact Us</a
-        >
-      </div>
-    </header>
+// Update the count down every 1 second
+var x = setInterval(function() {
 
-    <main>
-      <!-- About: Icons -->
-      <section id="about" class="icons bg-light">
-        <div class="flex-items">
-          <div>
-            <i class="fas fa-desktop fa-2x"></i>
-            <div>
-              <h3>Website Design</h3>
-              <p>
-                We don't just create websites (like everyone else does). We
-                create websites that work.
-              </p>
-            </div>
-          </div>
-          <div>
-            <i class="fas fa-search fa-2x"></i>
-            <div>
-              <h3>SEO</h3>
-              <p>
-                Effective on-page and off-page SEO to get you ranking in top
-                positions on Google.
-              </p>
-            </div>
-          </div>
-          <div>
-            <i class="fas fa-users fa-2x"></i>
-            <div>
-              <h3>Social Media</h3>
-              <p>
-                Social media growth to improve credibility and gain new clients.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+  // Get todays date and time
+  var now = new Date().getTime();
 
-      <!-- About:Solutions -->
-      <section class="solutions flex-columns">
-        <div class="row">
-          <div class="column">
-            <div class="column-1">
-              <img src="images/seo.jpeg" alt="" />
-            </div>
-          </div>
-          <div class="column">
-            <div class="column-2 bg-primary">
-              
-              <h2>We provide effective website solutions focused on results</h2>
-              <p>
-                SEO means ‘Search Engine Optimization.’ In ‘simple English’ it means to code or edit a website that Google can ‘read’ easily, and your goal is to rank higher for your search term (this is a very simplified answer).
-              </p>
-              <a href="post.html" class="btn btn-outline">
-                <i class="fas fa-chevron"></i>
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
 
-      <!-- Blog -->
-      <section id="blog" class="blog flex-columns flex-reverse">
-        <div class="row">
-          <div class="column">
-            <div class="column-1">
-              <img src="images/home/blog.jpg" alt="" />
-            </div>
-          </div>
-          <div class="column">
-            <div class="column-2 bg-secondary">
-              <h4>June 17, 2022</h4>
-              <h2>Blog Post One</h2>
-              <p>
-                Your title must be under 70 characters but try to keep it under 60. Always start your title tag with the same search term you are trying to rank for. In this case I am trying to rank for the search term “DeHart's Web Solutions”...   
-              </p>
-              <a href="blog.html" class="btn btn-outline">
-                <i class="fas fa-chevron"></i>
-                Read Our Blog
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      <div class="flex-items team">
-        <div>
-          <a href="https://quiet-beignet-e2fd36.netlify.app/">
-            <img src="images/athens-tribute-page.png" alt="" />
-            <h4>Project</h4>
-            <p>Athens Tribute Page</p>
-          </a>
-        </div>
-        <div>
-          <a href="https://shads-portfolio.netlify.app/">
-            <img src="img/portfolio.png" alt="" />
-            <h4>Project</h4>
-            <p>Portfolio Page</p>
-          </a>
-        </div>
-        <div>
-          <a href="https://chic-hamster-21d9de.netlify.app/">
-            <img src="images/blue-primary.png" alt="" />
-            <h4>Project</h4>
-            <p>Athens Photography Media</p>
-          </a>
-        </div>
-      </div>
+  // Display the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
 
-      <!-- Contact -->
-      <section id="contact" class="contact flex-columns">
-        <div class="row">
-          <div class="column">
-            <div class="column-1">
-              <img src="images/home/contact.jpg" alt="" />
-            </div>
-          </div>
-          <div class="column">
-            <div class="column-2 bg-light">
-              <h2>Request Callback</h2>
-              <form
-                class="callback-form"
-                name="contact"
-                method="POST"
-                data-netlify="true"
-              >
-                <div class="form-control">
-                  <label for="name"></label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Please use contact form in portfolio"
-                  />
-                </div>
-                <div class="form-control">
-                  <label for="email"></label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Please use contact form in portfolio"
-                  />
-                </div>
-                <div class="form-control">
-                  <label for="phone"></label>
-                  <input
-                    type="text"
-                    name="phone"
-                    id="phone"
-                    placeholder="Please use contact form in portfolio"
-                  />
-                </div>
-                <input type="submit" value="Send" id="submit" class="btn" />
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+  </script>
+</body>
 
-    <footer class="footer bg-dark">
-      <div class="social">
-        <a href="https://www.facebook.com/ShadDeHart2012/"
-          ><i class="fab fa-facebook fa-2x"></i
-        ></a>
-        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-      </div>
-      <p>
-        Copyright &copy; 2022, DeHarts Web Solutions | All Rights Reserved
-        <a href="privacy.html">Privacy Policy</a> <a href="#"></a> |
-        <a href="terms.html">Terms and Conditions</a>
-      </p>
-    </footer>
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.0.min.js"
-      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/lightbox.min.js"></script>
-    <script>
-      const navbar = document.getElementById('navbar');
-      let scrolled = false;
-
-      window.onscroll = function () {
-        if (window.pageYOffset > 100) {
-          navbar.classList.remove('top');
-          if (!scrolled) {
-            navbar.style.transform = 'translateY(-70px)';
-          }
-          setTimeout(function () {
-            navbar.style.transform = 'translateY(0)';
-            scrolled = true;
-          }, 200);
-        } else {
-          navbar.classList.add('top');
-          scrolled = false;
-        }
-      };
-
-      // Smooth Scrolling
-      $('#navbar a, .btn').on('click', function (e) {
-        if (this.hash !== '') {
-          e.preventDefault();
-
-          const hash = this.hash;
-
-          $('html, body').animate(
-            {
-              scrollTop: $(hash).offset().top - 100,
-            },
-            800
-          );
-        }
-      });
-    </script>
-  </body>
 </html>
