@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Post One</title>
+  </head>
+  <body id="home">
+    <header class="hero blog">
+      <div class="navbar top" id="navbar">
+        <a href="index.html"><h1 class="logo">
+          <!-- <span class="text-primary"><i class="fas fa-heartbeat">--><img 
+            style="width: 75px; padding: 4px"
+            src="images/hart-love.png"
+            alt="DeHarts Web Design Logo"
+          /><!--</i> DeHarts</span
+          > Web Design -->
+        </h1></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+
+            <li><a href="index.html#blog">Blog</a></li>
+            <li><a href="https://shads-portfolio.netlify.app/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1>Blog</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="post">
+        <h2>Blog Post One</h2>
+        <p class="meta">
+          <i class="fas fa-user"></i> Posted by <strong>Shad DeHart</strong> |
+          June 17, 2022
+        </p>
+        <img src="images/blog/blog1.jpg" alt="" /> 
+        <h1 style="text-align: center ; font-size: 45px; ">SEO</h1>
+        <p>SEO can be broken down into 2 sections: 
+
+          On-page SEO and off-page SEO. 
+          
+          On page happens within the website. This is all the optimizing you do on your website to try and rank in the #1 spot on the search engine results. 
+          
+          Off-page happens outside of your website. This is all the activities that you and others do for the site to rank higher in the search engine results. 
+          
+          In this article we are going to focus on On-page SEO we will get into off-page SEO later. </p>
+        <p>
+          SEO means ‘Search Engine Optimization.’ 
+          In ‘simple English’ it means to code or edit a website that Google can ‘read’ easily, and your goal is to rank higher for your search term (this is a very simplified answer). 
+        </p>
+    
+        <h1 style="text-align: center ; font-size: 45px; ">Keyword Research</h1>
+        <p>Identifying all keywords you need to rank your site for.</p>
+        <p>It is very challenging to rank search terms because it is so competitive.</p>
+        <p>Wrong-keywords will equal no traffic or no purchases.</p>
+        <h1>Long-tail keywords vs. short-tail, and finding the most profitable.</h1>
+        <p>Long tail keywords are more specific, because of this that makes them more profitable.</p>
+        <p>What is a keyword?</p>
+        <p>Timing and intent - what people want, and they want it now.</p>
+        <p>Marketing Agency: is a vanity keyword meaning it's the most popular but not the most profitable.</p>
+        <h1 style="text-align: center ; font-size: 45px; ">On-Page-Seo</h1>
+        <p>Correct website structure and copywriting on every page of your website.</p>
+        <p>Process of ranking your pages higher.</p>
+
+        
+      </section>
+      <section class="seo-img">
+        <img class="title-img" src="img/title-tag.png" alt="">
+        <img src="img/title.png" alt="">
+      </section>
+  
+    </main>
+
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>Copyright &copy; 2022 - DeHarts Web Design Solutions</p>
+    </footer>
+
+    <script>
+      const navbar = document.getElementById('navbar');
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove('top');
+          if (!scrolled) {
+            navbar.style.transform = 'translateY(-70px)';
+          }
+          setTimeout(function () {
+            navbar.style.transform = 'translateY(0)';
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add('top');
+          scrolled = false;
+        }
+      };
+    </script>
+  </body>
+</html>
